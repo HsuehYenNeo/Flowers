@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+$global-text-color: #333333;
+$category-text-color: #009494;
+$placeholder-text-color: #979797;
+$line-color: #cecece;
+$white-bg: #fff;
+$box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+body {
+    background-color: #e5e5e5;
+    color: $global-text-color;
+    margin: 0;
+}

@@ -1,0 +1,13 @@
+<div class="flower-card" (click) = "toggleDetails()">
+    <div class="flower-card-title">{{myFlower().name}}</div>
+    <div [ngClass]=" detailsOpen ? 'arrow close' : 'arrow down'"></div>
+    <div class="flower-card-details" *ngIf="detailsOpen">
+        <img src="/assets/pictures/flower.jpg"/>
+        <div class="flower-card-info">
+            <div class="flower-card-description">{{myFlowerDetails().description}}</div>
+            <br>
+            <div class="flower-card-price">Price: €{{myFlowerDetails().price}}</div>
+        </div>
+    </div>
+ 
+</div>

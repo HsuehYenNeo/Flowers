@@ -1,0 +1,32 @@
+@import "../../styles.scss";
+
+.filter-container {
+    padding: 15px 30px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    background: $white-bg;
+    border-radius: 3px;
+    box-shadow: $box-shadow;
+}
+input[type=text] {
+    height: 50px;
+    margin: 0 15px;
+    width: 100%;
+    border: 1px solid transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $placeholder-text-color;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $placeholder-text-color;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: $placeholder-text-color;
+}
